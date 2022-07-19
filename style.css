@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.border {
+  margin: 50px 0 30px;
+  border: 1px solid#D1D1D1;
+}
+
+.idea-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #562EFF;
+  padding-bottom: 35px;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* General CSS End */
+/* Header CSS Start */
+#ideaHead {
+  padding: 20px;
+  background-color: #562EFF;
+}
+
+#ideaHead .headContent {
+  justify-content: space-between;
+}
+
+.headContent .logo {
+  min-width: 108px;
+  justify-content: space-between;
+}
+
+.headContent .logo>img {
+  width: 40px;
+}
+
+.headContent .logo>h1 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+.headContent .navitem {
+  min-width: 350px;
+}
+
+.headContent .navitem>ul {
+  list-style: none;
+  justify-content: space-between;
+}
+
+.headContent .navitem>ul>li>a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+/* Header CSS End */
+/* Main CSS Start */
+#ideaMain {
+  padding: 35px 0 15px;
+  background-color: #F3F1FF;
+}
+
+#ideaMain .main-section {
+  width: 100%;
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 35px;
+  margin-bottom: 20px;
+}
+
+/* Player CSS Start */
+.main-section .players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 30px;
+}
+
+.main-section .player>img {
+  width: 55px;
+  padding-right: 15px;
+}
+
+.main-section .player>h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+/* Player CSS End */
+
+/* Blog CSS Start */
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 30px;
+  justify-content: space-between;
+}
+
+.blog {
+  width: 90%;
+  justify-content: center;
+}
+
+.blog-image {
+  width: 50%;
+  margin-right: 15px;
+}
+
+.blog-image>img {
+  width: 100%;
+  height: 100%;
+}
+
+.blog-content {
+  width: 50%;
+}
+
+.blog-content>h2 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 40px;
+  color: #000000;
+  padding-bottom: 10px;
+}
+
+.blog-content>p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #9F9F9F;
+}
+
+.blog-content>p>span {
+  color: #562EFF;
+}
+
+/* Blog Css End */
+
+/* Main CSS End */

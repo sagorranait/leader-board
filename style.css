@@ -68,7 +68,6 @@ a {
 }
 
 .headContent .navitem>ul>li>a {
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #FFFFFF;
@@ -226,3 +225,17 @@ a {
 
 /* Courses Css End */
 /* Main CSS End */
+/* Footer CSS Start */
+#IdeaFooter {
+  padding: 20px;
+  background-color: #562EFF;
+}
+
+#IdeaFooter .footer-content p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* Footer CSS End */
